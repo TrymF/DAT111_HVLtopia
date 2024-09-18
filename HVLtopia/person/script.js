@@ -6,7 +6,7 @@ function setPerson(name) {
     sessionStorage.setItem("personPage", name);
 }
 
-const profilePicturePath = "/person/profilePictures/";
+const profilePicturePath = "/HVLtopia/person/profilePictures/";
 
 const profilePictures = [profilePicturePath + "Trym Fanebust.jpg", profilePicturePath + "William Waly.jpg",
 profilePicturePath + "Simon Toft.jpg", profilePicturePath + "Stian Valstad.jpg",

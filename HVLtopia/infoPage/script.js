@@ -6,7 +6,7 @@ function setPageName(pageName) {
 
 }
 
-const imgPath = ["/temp.png", "/temp.png", "/temp.png", "/temp.png"];
+const imgPath = ["/HVLtopia/temp.png", "/HVLtopia/temp.png", "/HVLtopia/temp.png", "/HVLtopia/temp.png"];
 
 const pageNames = ["Om prosjektet", "Løsninger, resultater og impact", "Bærekraft og Samfunnsansvar", "Engasjement for Bærekraft"];
 

@@ -1,0 +1,49 @@
+#mainBody {
+    display: grid;
+    place-items: center;
+}
+
+#profilePicture {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#infoBox {
+    background-color: hsl(205, 77%, 70%);
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    width: fit-content;
+    justify-content: left;
+}
+
+.infoBoxText{
+    font-size:x-large;
+}
+
+#profileName {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#emailAdress {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#bioBox {
+    background-color: hsl(188, 90%, 85%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#biografi {
+    text-align: left;
+    width: 600px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

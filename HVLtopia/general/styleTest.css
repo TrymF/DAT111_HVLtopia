@@ -1,0 +1,12 @@
+
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+
+}
+
+#spaceBox{
+    height: 500px;
+}

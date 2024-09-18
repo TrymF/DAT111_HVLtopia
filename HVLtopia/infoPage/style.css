@@ -1,0 +1,33 @@
+#mainBody {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+#image {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#infoBox {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    background-color: hsl(50, 96%, 49%);
+}
+
+#header {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: xx-large;
+    height: fit-content;
+}
+
+#paragraph {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>person</title>
+    <link rel="stylesheet" href="/general/style.css">
+    <link rel="stylesheet" href="/person/style.css">
+
+</head>
+
+<body>
+    <div id="topNav"></div>
+
+    <div class="mainBody" id="mainBody">
+        <img src="/temp.png" alt="profile picture missing" class="box" id="profilePicture">
+
+        <div class="box" id="infoBox">
+            <h1 class="font infoBoxText" id="profileName">name</h1>
+            <div class="font infoBoxText" id="emailAdress">email</div>
+        </div>
+
+        <div class="box" id="bioBox">
+            <h2 class="font boxTextSize" id="biografi">bio</h2>
+        </div>
+    </div>
+
+    <div id="buttomNav"></div>
+
+    <script src="/infoPage/script.js"></script>
+    <script src="/person/script.js"></script>
+
+
+    <script src="/general/script.js"></script>
+    <script>
+        loadTemplate("/general/index.html", "navTop", "topNav", 1);
+        loadPerson();
+        loadTemplate("/general/index.html", "navButtom", "buttomNav", 1);
+    </script>
+
+</body>
+
+</html>

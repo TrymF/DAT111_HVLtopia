@@ -1,0 +1,92 @@
+/* genneral styling */
+body {
+    margin-top: -30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: hsl(180, 100%, 99%);
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+.mainBody {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.font {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.box {
+    border-radius: 20px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 5);
+    border: none;
+}
+
+.boxTitleSize{
+    font-size: xx-large;
+}
+
+.boxTextSize{
+    font-size:large;
+}
+
+.page-link:hover {
+    text-decoration-line: underline;
+}
+
+.page-link:active {
+    color: rgb(91, 88, 88);
+}
+
+/* top navegation bar */
+#topNavBar {
+    height: 40;
+    background-color: hsl(187, 93%, 28%);
+    display: flex;
+    gap: 200px;
+    justify-content: left;
+}
+
+#logoNav {
+    margin-left: 50px;
+    max-height: 100px;
+    margin-right: 100px;
+}
+
+#divNav-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.loadPageInfo {
+    width: fit-content;
+    font-size:x-large;
+}
+
+/* buttom navegation bar */
+#buttomNavBar {
+    height: 150px;
+    background-color: hsl(174, 99%, 27%);
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+#buttomLeftNavBar {
+    margin-left: 100px;
+}
+
+#personer {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+

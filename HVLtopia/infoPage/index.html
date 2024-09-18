@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="nn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>info</title>
+    <link rel="stylesheet" href="/general/style.css">
+    <link rel="stylesheet" href="/infoPage/style.css">
+
+</head>
+
+<body>
+    <div id="topNav"></div>
+
+     <div class="mainBody" id="mainBody">
+        <img src="/temp.png" alt="missing image" class="box" id="image">
+
+        <div class="box" id="infoBox">
+            <h1 class="font boxTitleSize" id="header">Info topic</h1>
+            <h2 class="font boxTextSize" id="paragraph">paragraph</h2>
+        </div>
+
+    </div>
+
+    <div id="buttomNav"></div>
+
+    <script src="/infoPage/script.js"></script>
+    <script src="/person/script.js"></script>
+
+    <script src="/general/script.js"></script>
+    <script>
+        loadTemplate("/general/index.html", "navTop", "topNav", 1);
+        loadInfoPage();
+        loadTemplate("/general/index.html", "navButtom", "buttomNav", 1);
+    </script>
+
+</body>
+
+</html>

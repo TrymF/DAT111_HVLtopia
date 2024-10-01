@@ -1,6 +1,6 @@
 /* genneral styling */
 body {
-    margin-top: -30px;
+    margin-top: -10px;
     margin-left: 0px;
     margin-right: 0px;
     background-color: hsl(180, 100%, 99%);
@@ -131,11 +131,11 @@ body {
     text-align: center;
 }
 
-#box1 {
+.box1 {
     background-color: hsl(187, 93%, 40%);
 }
 
-#box2 {
+.box2 {
     background-color: hsl(71, 88%, 45%);
 }
 
@@ -144,11 +144,11 @@ body {
     text-align: center;
 }
 
-#box3 {
+.box3 {
     background-color: hsl(48, 86%, 49%);
 }
 
-#box4 {
+.box4 {
     background-color: hsl(0, 90%, 59%);
 }
 
@@ -250,7 +250,6 @@ body {
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(1, 2fr);
-    background-color: hsl(50, 96%, 49%);
 }
 
 #header {

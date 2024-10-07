@@ -50,15 +50,12 @@ body {
     display: flex;
     gap: 200px;
     justify-content: left;
-    border-radius: 0%;
 }
 
 #logoNav {
     margin-left: 50px;
     max-height: 100px;
-   /* margin-right: 100px;*/
-    border-radius: 10%;
-    margin-top: 20px;
+    margin-right: 100px;
 }
 
 #divNav-links {
@@ -84,7 +81,6 @@ body {
 
 #buttomLeftNavBar {
     margin-left: 100px;
-    margin-top: 10px;
 }
 
 #personer {
@@ -136,11 +132,11 @@ body {
 }
 
 .box1 {
-    background-color: hsl(172, 69%, 36%);
+    background-color: hsl(187, 93%, 40%);
 }
 
 .box2 {
-    background-color: hsl(160, 90%, 33%);
+    background-color: hsl(71, 88%, 45%);
 }
 
 #rightSide {
@@ -149,11 +145,11 @@ body {
 }
 
 .box3 {
-    background-color: hsl(170, 96%, 32%);
+    background-color: hsl(48, 86%, 49%);
 }
 
 .box4 {
-    background-color: hsl(164, 92%, 29%);
+    background-color: hsl(0, 90%, 59%);
 }
 
 .small-box {
@@ -268,9 +264,3 @@ body {
     margin-bottom: 30px;
     margin-right: 20px;
 }
-
-/*
-img {
-    border-radius: 10%;
-  }
-*/

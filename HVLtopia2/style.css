@@ -156,6 +156,10 @@ body {
     background-color: hsl(164, 92%, 29%);
 }
 
+.box5 {
+    background-color: hsl(182, 73%, 51%);
+}
+
 .small-box {
     height: 500px;
 }

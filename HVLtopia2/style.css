@@ -48,7 +48,7 @@ body {
 #topNavBar {
     background-color: hsl(187, 93%, 28%);
     display: flex;
-    gap: 200px;
+    gap: 100px;
     justify-content: left;
     border-radius: 0%;
 }
@@ -65,7 +65,7 @@ body {
     margin-top: 15px;
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 60px;
     padding: 30px;
 }
 
@@ -135,11 +135,15 @@ body {
     text-align: center;
 }
 
-.box1 {
+.prosjektet {
     background-color: hsl(172, 69%, 36%);
 }
 
-.box2 {
+.løsninger {
+    background-color: hsl(160, 90%, 33%);
+}
+
+.transport {
     background-color: hsl(160, 90%, 33%);
 }
 
@@ -148,16 +152,16 @@ body {
     text-align: center;
 }
 
-.box3 {
+.bærekraft {
     background-color: hsl(170, 96%, 32%);
 }
 
-.box4 {
+.engasjement {
     background-color: hsl(164, 92%, 29%);
 }
 
-.box5 {
-    background-color: hsl(182, 73%, 51%);
+.nox {
+    background-color: hsl(170, 96%, 32%);
 }
 
 .small-box {
@@ -282,8 +286,17 @@ body {
     margin-bottom: 20px;
   }
 
-  #sosLogo {
-        width:20px; 
-        height: auto;
-        border-radius: 10%;
-    }  
+#sosLogo {
+    width:20px; 
+    height: auto;
+    border-radius: 10%;
+}  
+
+#transportTable {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+.transportTablePart {
+    border: 1px solid;
+}
